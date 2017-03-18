@@ -1,5 +1,5 @@
 # MicroSnake
 
-Control the BMTron game wth the BBC Micro:Bit.
+Control the snake multiplayer game wth the BBC Micro:Bit.
 
-Link to BMTron: https://bitbucket.org/kryshen/bmtron
+https://github.com/DeerMichel/snake-multiplayer
