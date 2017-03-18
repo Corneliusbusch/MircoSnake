@@ -18,6 +18,7 @@ import de.mh.snake.Request;
 import de.mh.snake.Response;
 import de.mh.snake.server.Game;
 
+
 public class ClientHandler implements KeyListener {
 	
 	private SnakeClient snakeClient;
@@ -83,8 +84,11 @@ public class ClientHandler implements KeyListener {
 					
 				}
 			});
-			
+
+			//TODO add listener for device motion
 			snakeClient.addKeyListener(this);
+
+
 			
 			request("getHighscore");
 			request("getColors");
@@ -204,6 +208,7 @@ public class ClientHandler implements KeyListener {
 	}
 
 	@Override
+	//TODO adapt to use micro bit instead
 	public void keyPressed(KeyEvent e) {
 		
 		int key = e.getKeyCode();

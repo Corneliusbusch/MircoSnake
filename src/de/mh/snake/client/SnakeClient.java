@@ -62,4 +62,9 @@ public class SnakeClient extends JFrame {
 		
 	}
 
+	public void stopClient(){
+		handler.stop();
+		this.dispose();
+	}
+
 }
