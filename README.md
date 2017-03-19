@@ -1,5 +1,3 @@
 # MicroSnake
 
-Control the snake multiplayer game wth the BBC Micro:Bit.
-
-https://github.com/DeerMichel/snake-multiplayer
+A multiplayer snake game wth 3 control modes, BBC Micro:Bit, Leap Motion and Keyboard.
